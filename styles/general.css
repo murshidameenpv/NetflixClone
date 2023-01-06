@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;padding: 10px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color:#fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius:4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
